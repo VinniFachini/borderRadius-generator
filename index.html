@@ -11,17 +11,20 @@
 <body>
   <div class="content-wrapper">
     <h1>Border Radius Generator</h1>
-    <section class="input-preview">
-      <div class="inputs">
-        <input type="number" name="topLeft" id="topLeft" min="0" max="50">
-        <input type="number" name="todRight" id="todRight" min="0" max="50">
-        <button data-toggle></button>
-        <input type="number" name="bottomRight" id="bottomRight" min="0" max="50">
-        <input type="number" name="bottomLeft" id="bottomLeft" min="0" max="50">
+    <section class="input">
+      <div class="info-input">
+        <input type="number" name="topLeft" id="topLeft" min="0" max="50" placeholder="0">
+        <input type="number" name="todRight" id="todRight" min="0" max="50" placeholder="0">
+        <button data-toggle><img src="img/Group1.svg" alt="Clipper"></button>
+        <input type="number" name="bottomRight" id="bottomRight" min="0" max="50" placeholder="0">
+        <input type="number" name="bottomLeft" id="bottomLeft" min="0" max="50" placeholder="0">
       </div><!-- inputs -->
+    </section><!-- section input -->
+    <section class="preview">
       <div class="previewer">
-        <!-- <pre class="copyToClipboard"><button id="copyToClipboard">Copy To Clipboard</button> -->
+        <pre class="copyToClipboard">
           <code class="cssText"></code>
+          <button id="copyToClipboard">Copy To Clipboard</button>
         </pre>
       </div><!-- previewer -->
     </section>
