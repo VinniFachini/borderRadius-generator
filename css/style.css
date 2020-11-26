@@ -114,7 +114,20 @@ code.cssText {
   height: 230px;
   padding: 10px;
   text-align: left;
+  overflow-y: scroll;
 }
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border: 5px solid #fff;
+  border-radius: 50px;
+}
+
 button#copyToClipboard {
   align-self: flex-end;
   width: 100%;
@@ -123,6 +136,6 @@ button#copyToClipboard {
   font-size: 1.15em;
   border: none;
   background: #303030;
-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
   cursor: pointer;
 }
